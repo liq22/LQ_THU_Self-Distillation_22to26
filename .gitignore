@@ -1,0 +1,59 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Obsidian local state
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+.trash/
+
+# Local private material
+98_Private_LOCAL_勿提交/
+private/
+_private/
+
+# Large or sensitive data
+**/data/raw/
+**/data/processed/
+**/datasets/
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.npz
+*.npy
+
+# Build / temp / logs
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.bak
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# By default, do not commit copyrighted PDFs or private photos.
+10_Assets_附件/PDFs_文献PDF_默认勿提交/*
+!10_Assets_附件/PDFs_文献PDF_默认勿提交/.gitkeep
+!10_Assets_附件/PDFs_文献PDF_默认勿提交/README.md
+10_Assets_附件/Photos_照片_默认勿提交/*
+!10_Assets_附件/Photos_照片_默认勿提交/.gitkeep
+!10_Assets_附件/Photos_照片_默认勿提交/README.md
+
+
+# Private voice and identity materials
+11_Skills_个人智能体/**/private_voice_samples/
+11_Skills_个人智能体/**/raw_transcripts/
+11_Skills_个人智能体/**/private_evals/
